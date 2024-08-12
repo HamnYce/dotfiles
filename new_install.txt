@@ -1,0 +1,28 @@
+Homebrew
+warp
+arc
+zed
+bitwarden
+discord
+Obsidian
+Nerdfont
+git
+starship (zsh wrapper)
+node
+zoxide
+Python
+dynamic wallpaper
+-----
+
+
+Brew stuff:
+zoxide
+Fzf
+
+
+configs:
+Lunar vim
+Zshrc
+
+
+
