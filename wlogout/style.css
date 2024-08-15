@@ -1,28 +1,40 @@
+@import "frappe.css";
+
+* {
+  transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+ 
+ }
+
 window {
-  font-family: Jetbrain Mono NF;
-  font-size: 14pt;
-  color: #cdd6f4;
-  /* text */
-  background-color: rgba(30, 30, 46, 0.5);
+  font-family: JetBrainsMono Nerd Font, monospace;
+  font-size: 16pt;
+  background-color: rgba(48, 52, 70, 0.3);
 }
 
 button {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 25%;
-  border: none;
-  background-color: rgba(30, 30, 46, 0);
-  margin: 5px;
-  transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  margin: .25rem;
+  opacity:1;
+  border: 0;
+  background-color: @surface0;
+  color: @text;
 }
 
 button:hover {
-  background-color: rgba(49, 50, 68, 0.1);
+  background-color: @mantle;
+  color: @text;
 }
 
 button:focus {
-  background-color: #cba6f7;
-  color: #1e1e2e;
+  background-color: @lavender;
+  color: @text;
+}
+
+button:active {
+  background-color: @lavender;
+  color: @text
 }
 
 #lock {
@@ -31,6 +43,7 @@ button:focus {
 
 #lock:focus {
   background-image: image(url("./lock-hover.png"));
+  color: @base
 }
 
 #logout {
@@ -39,6 +52,7 @@ button:focus {
 
 #logout:focus {
   background-image: image(url("./logout-hover.png"));
+  color: @base
 }
 
 #suspend {
@@ -47,6 +61,7 @@ button:focus {
 
 #suspend:focus {
   background-image: image(url("./sleep-hover.png"));
+  color: @base
 }
 
 #shutdown {
@@ -55,12 +70,23 @@ button:focus {
 
 #shutdown:focus {
   background-image: image(url("./power-hover.png"));
+  color: @base
 }
 
 #reboot {
-  background-image: image(url("./reboot.png"));
+  background-image: image(url("./restart.png"));
 }
 
 #reboot:focus {
-  background-image: image(url("./reboot-hover.png"));
+  background-image: image(url("./restart-hover.png"));
+  color: @base
+}
+
+#windows {
+  background-image: image(url("./windows.png"));
+}
+
+#windows:focus {
+  background-image: image(url("./windows-hover.png"));
+  color: @base
 }
