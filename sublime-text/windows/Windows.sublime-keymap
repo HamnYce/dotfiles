@@ -1,0 +1,11 @@
+[
+	{ "keys": ["f12"], "command": "lsp_symbol_definition"},
+	{ "keys": ["f2"], "command": "lsp_symbol_rename" },
+	{ "keys": ["ctrl+k"], "command": "lsp_hover" },
+	{ "keys": ["alt+shift+c"], "command": "lsp_call_hierarchy"},
+	{ "keys": ["ctrl+b"], "command": "toggle_side_bar"},
+	{ "keys": ["ctrl+t"], "command": "lsp_document_symbols"},
+	{ "keys": ["ctrl+shift+["], "command": "prev_view"},
+	{ "keys": ["ctrl+shift+]"], "command": "next_view"},
+	{ "keys": ["alt+'"], "command": "toggle_terminus_panel"},
+]

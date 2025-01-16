@@ -1,0 +1,43 @@
+{
+	"relative_line_numbers": true,
+	"caret_style": "phase",
+	"index_files": false,
+	"font_face": "JetBrainsMono Nerd Font Mono",
+	"font_size": 8,
+	"font_options": [
+		"dlig",
+		"ss01" // test >=
+	],
+	"ignored_packages": [
+		"Vintage",
+	],
+	"neovintageous_build_version": 13200,
+	"tab_size": 2,
+	"vintageous_use_sys_clipboard": true,
+	"vintageous_auto_complete_exit_before_insert_mode": true,
+	"vintageous_enable_multiple_cursors": true,
+	"vintegous_enable_surroud": true,
+	"vintageous_lsp_save": true,
+	"added_words": [
+		"head"
+	],
+	"lsp_format_on_save": true,
+	"vintageous_handle_keys": {
+		"<C-a>": false,
+		"<C-c>": false,
+		"<C-v>": false,
+		"<C-z>": false,
+		"<C-f>": false,
+		"<C-[>": false,
+		"<C-]>": false,
+		"<C-p>": false,
+		"<C-x>": false,
+		"<C-w>": false,
+		"<C-t>": false,
+		"<C-s>": false,
+		"<C-T>": false,
+		"<C-n>": false,
+	},
+	"theme": "auto",
+	"color_scheme": "Catppuccin Macchiato.sublime-color-scheme",
+}
